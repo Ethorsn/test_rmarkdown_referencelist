@@ -1,0 +1,27 @@
+---
+title: "Dopes misc class gets parsed as http or https?"
+output: rmarkdown::html_vignette
+bibliography: ./REFERENCES.bib
+vignette: >
+  %\VignetteIndexEntry{introduction}
+  %\VignetteIndKexEntry{introduction}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+ 
+Lets test if a Arxiv reference using `@misc` class in a bib file gets parsed with a http or https link.
+Here is a test reference [@test_reference]
+
+# References
+
+
+```{r}
+R.Version()
+```
